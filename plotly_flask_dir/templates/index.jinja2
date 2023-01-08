@@ -1,0 +1,20 @@
+{% if session %}
+
+{% block content %}
+<div class="card">
+  <p><a href="/logout">Logout</a></p>
+  <h1 class="site-title">{{ title }}</h1>
+  <p class="subtitle">{{ description }}</p>
+  <a href="/dashapp/" class="dash-link">
+    <span>continue to hexing app</span>
+    <i class="fas fa-arrow-right"></i>
+  </a>
+</div>
+{% endblock %}
+
+{% else %}
+
+<h1>Welcome Guest</h1>
+<p><a href="/login">Login</a></p>
+
+{% endif %}

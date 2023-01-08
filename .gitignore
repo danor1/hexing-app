@@ -1,0 +1,6 @@
+venv
+AUTH0_details.json
+*.pyc
+.DS_Store
+.env
+.idea
