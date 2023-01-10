@@ -6,3 +6,4 @@
  - Live system is published onto a protected heroku webpage - contact for a demonstration/tour.
  
 ## See Images below
+![This is an image](../assets/JarJarBinks.png)
